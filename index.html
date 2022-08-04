@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="#" />
+
+        <title>
+            Bases
+        </title>
+    </head>
+    <body>
+
+        <h3>Converter Bases</h3>
+
+        <form>
+
+            Converter de:
+            <br>
+            <select id="origem">
+                <option value="1" selected>Binário</option>
+                <option value="2">Decimal</option>
+                <option value="3">Hexadecimal</option>
+            </select>
+
+            <br>
+            <br>
+
+            <input id="number" type="text" />
+
+            <br>
+            <br>
+
+            Para:
+            <br>
+            <select id="destino">
+                <option value="2" selected>Decimal</option>
+                <option value="1">Binário</option>
+                <option value="3">Hexadecimal</option>
+            </select>
+
+            <br>
+            <br>
+
+            <b>Resultado: </b><span id="resultado"></span>
+
+            <br>
+            <br>
+
+            <input type="reset" value="Limpar" />
+            <input id="converter" type="button" value="Converter" />
+            
+
+        </form>
+
+        <script src="./conversoes.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
